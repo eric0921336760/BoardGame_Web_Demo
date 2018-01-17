@@ -1,0 +1,55 @@
+@import url(//fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'cwTeXHei', sans-serif;
+    
+}
+
+nav{
+    background-color: skyblue;
+  
+    
+}
+nav .brand-logo i{
+    float: none;
+    padding-left: 10px;
+}
+
+ .parallax-container {
+  height: 60%;
+
+}
+
+.section{
+}
+
+.shadow-text{
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+.vcorner{
+    text-align: center;
+    position: absolute;
+    left:auto;
+    top:auto;
+    bottom:2%;
+    right: 2%;
+   
+}
+
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%)translateY(-50%);
+    transition: 1s opacity;
+}
