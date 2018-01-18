@@ -6,13 +6,10 @@ html,body{
 
 body{
     font-family: 'cwTeXHei', sans-serif;
-    
 }
 
 nav{
-    background-color: skyblue;
-  
-    
+    background-color: skyblue;    
 }
 nav .brand-logo i{
     float: none;
@@ -21,12 +18,7 @@ nav .brand-logo i{
 
  .parallax-container {
   height: 60%;
-
 }
-
-.section{
-}
-
 .shadow-text{
     text-shadow: 0 0 5px rgba(0,0,0,0.8);
 }
@@ -41,15 +33,31 @@ nav .brand-logo i{
    
 }
 
+
 video{
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+    
+    width: 100%;
     height: auto;
-    z-index: -100;
+    z-index: 100;
     transform: translateX(-50%)translateY(-50%);
     transition: 1s opacity;
+}
+
+#about_me{
+   background-color: burlywood;
+}
+
+div.infos{
+    padding-left: 5%;
+}
+
+.div-gradient
+{
+background: linear-gradient(89deg, rgba(146, 133, 135, 1)16%, rgba(235, 220, 207, 0.8)84%); 
+background: -moz-linear-gradient(89deg, rgba(146, 133, 135, 1)16%, rgba(235, 220, 207, 0.8)84%); 
+background: -webkit-linear-gradient(89deg, rgba(146, 133, 135, 1)16%, rgba(235, 220, 207, 0.8)84%); 
+background: -o-linear-gradient(89deg, rgba(146, 133, 135, 1)16%, rgba(235, 220, 207, 0.8)84%); 
 }
